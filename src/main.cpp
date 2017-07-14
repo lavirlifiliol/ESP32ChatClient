@@ -239,7 +239,6 @@ void loop(){
             i.trim();
             cout<<i.c_str()<<endl;
             names.insert(std::pair<byte, String>(ip[3], i));
-            delay(50);
             if(c==0)break;
           }
           break;
